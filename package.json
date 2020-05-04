@@ -1,0 +1,44 @@
+{
+	"name": "sudo-block",
+	"version": "3.0.0",
+	"description": "Block users from running your app with root permissions",
+	"license": "MIT",
+	"repository": "sindresorhus/sudo-block",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"sudo",
+		"root",
+		"user",
+		"permissions",
+		"uid",
+		"block",
+		"prevent",
+		"stop"
+	],
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"is-docker": "^2.0.0",
+		"is-root": "^2.1.0"
+	},
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"import-fresh": "^3.0.0",
+		"sinon": "^7.3.2",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
+}
